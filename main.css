@@ -9,7 +9,7 @@
 body {
 	background-color: black;
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Do Hyeon', sans-serif;
 }
 
@@ -23,17 +23,25 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
+	margin: 1em 0.5em;
+
 }
 
 h3 {
 	font-size: 1.5em;
+	margin: 0.5em;
 }
 
 p {
+	margin: 1em 0.5em;
 
 }
 
 .album-art {
+	margin:2em;
+	padding: 1em;
+	border: 2px solid red;
+	float: left;
 
 }
 
@@ -42,10 +50,16 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
+	float: left;
+	border: 2px solid red;
+	padding: 1em;
+	margin: 2em;
+	width: 300px;
 	
 }
 
 .record-label {
+	color: red;
 
 }
 
@@ -54,17 +68,27 @@ p {
 }
 
 #about-photo {
-
+	border: 2px solid red;
+	padding: .5em;
+	margin: 2em;
+	float:left;
 }
 
 #copyright {
+	color: red;
 
 }
 
 #section-about, #section-discography, #section-equipment {
+	border: 2px solid red;
+	margin: 1em;
+
 
 }
 
 #text-intro {
-	
+	color: red;
+	border: 2px solid red;
+	background-color: grey;
+	padding: 1em;
 }
