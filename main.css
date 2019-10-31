@@ -23,7 +23,8 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
-	margin: 1em 0.5em;
+	margin: 1em 0;
+	
 
 }
 
@@ -33,8 +34,7 @@ h3 {
 }
 
 p {
-	margin: 1em 0.5em;
-
+	line-height: 1.5em;
 }
 
 .album-art {
@@ -42,7 +42,7 @@ p {
 	padding: 1em;
 	border: 2px solid red;
 	float: left;
-
+	max-width: 165px;
 }
 
 .clear {
@@ -64,7 +64,7 @@ p {
 }
 
 .track-list {
-
+	padding: 0.5em;
 }
 
 #about-photo {
@@ -80,15 +80,15 @@ p {
 }
 
 #section-about, #section-discography, #section-equipment {
-	border: 2px solid red;
+	border: 2px double red;
 	margin: 1em;
-
-
+	padding: 1em;
 }
 
 #text-intro {
 	color: red;
 	border: 2px solid red;
-	background-color: grey;
+	background-color: #515151;
 	padding: 1em;
+	margin:1em;
 }
